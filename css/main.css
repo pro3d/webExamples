@@ -1,0 +1,434 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* =========================================================
+   Threadsuite Styles
+   ======================================================= */
+
+body {
+    margin: 0 auto;
+    font-family: Lintel-Regular, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    background: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+body div {
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+h1,h2,h3,h4 {
+    font-family: MuseoSans-500, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.35em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+a, a:link {
+    text-decoration: none;
+    color:#2580b7;
+}
+
+a:visited {
+    color:#2580b7;
+}
+
+a:active {
+    color:#fff;
+}
+
+a:hover {
+    color:#333;
+}
+
+/* CSS Free Selected WebFonts */
+
+.MuseoSans-500 { 
+    font-family: MuseoSans-500;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.MuseoSans-500Italic { 
+    font-family: MuseoSans-500Italic;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Lintel-Regular { 
+    font-family: Lintel-Regular;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #2580b7;
+}
+
+.h3title {
+    color:#666;
+    font-size: 0.75em;
+    border: 0;
+    border-top: none;
+    border-bottom: none;
+    padding:0 5px;
+}
+
+.alt-title {
+    color:#666;
+}
+
+.alt-title-amp {
+    color:#2580b7;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.employee {
+    float: left;
+    margin-bottom: 25px;
+}
+
+.photo {
+    float: left;
+    width: 25%;
+}
+
+.photo>img {
+    width:100%;
+}
+
+.bio {
+    line-height: 24px;
+    display: inline-block;
+    float: left;
+    width:75%;
+}
+
+.bio-pad {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header-bg {
+    background: #fff;
+    padding: 10px 0;
+}
+
+.weAreHiring {
+    color:#fff;
+    background: #2580b7;
+    text-align: justify;
+}
+
+.ourCulture {
+    background: #c0d0e1;
+    color: #2580b7;
+}
+
+.ourTeam {
+    background: #fff;
+    color: #2580b7;
+}
+
+.perks {
+    background: #b2b2b2;
+    color: #555;
+}
+
+.tool-columns {
+    float: left;
+    width: 25%;
+}
+
+.thingsWeUse {
+    background: #b2b2b2;
+    color: #2580b7;
+    padding-bottom: 32px;
+}
+
+.thingsWeWorkOn {
+    color:#fff;
+    background: #2580b7;
+}
+
+.weAreLookingFor {
+    background: #c0d0e1;
+    color: #2580b7;
+}
+
+.openPositions {
+    background: #fff;
+    color: #2580b7;
+}
+
+.positionsList {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.positionsLink {
+    text-decoration: none;
+    display: block;
+    font-family: "MuseoSans-500Italic", "HelveticaNeue-Light", Helvetica;
+    font-weight: bold;
+    width: 100%;
+    padding:8px 0;
+    margin:0;
+}
+
+.ourOffice {
+    background: #b2b2b2;
+    color: #555;
+}
+
+.address-dtl {
+    font-size: .85em;
+}
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {}
+
+@media only screen and (min-width: 768px) {
+
+    /* ===============
+    Max Width
+   =============== */
+
+   body {
+    font-size: 1.325em;
+    line-height: 1.5em;
+    font-weight: 100;
+    }
+
+    .wrapper {
+        width: 720px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1140px) {}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
