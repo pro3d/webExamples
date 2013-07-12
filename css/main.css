@@ -8,53 +8,54 @@ input,
 select,
 textarea {
     color: #222;
-}
+    }
 
 body {
     font-size: 1em;
     line-height: 1.4;
-}
+    }
 
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
-}
+    }
 
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
-}
+    }
 
 hr {
     display: block;
-    height: 1px;
+    width: 80%;
+    height: 2px;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
+    border-top: 2px solid #118ACB;
+    text-align: center;
+    margin: auto;
     padding: 0;
-}
+    }
 
 img {
     vertical-align: middle;
-}
+    }
 
 fieldset {
     border: 0;
     margin: 0;
     padding: 0;
-}
+    }
 
 textarea {
     resize: vertical;
-}
+    }
 
 .chromeframe {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
-}
-
+    }
 
 /* =========================================================
    Threadsuite Styles
@@ -62,217 +63,214 @@ textarea {
 
 body {
     margin: 0 auto;
-    font-family: Lintel-Regular, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: #fff;
-    font-size: 16px;
-    line-height: 28px;
-}
+    }
 
 body div {
     padding-bottom: 20px;
-}
+    }
 
 footer {
     text-align: center;
-}
+    }
 
 h1,h2,h3,h4 {
-    font-family: MuseoSans-500, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-}
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 
 h1 {
     font-size: 2em;
-}
+    }
 
-h2 {
+h2, .h2 {
     font-size: 1.35em;
-}
+    }
 
-h3 {
+h3, .h3 {
     font-size: 1.25em;
-}
+    }
 
 h4 {
     font-size: 1.1em;
-}
+    }
 
-a, a:link {
+.center {
+    text-align: center;
+    }
+
+address {
+    font-style: normal;
+    }
+
+a:link {
     text-decoration: none;
-    color:#2580b7;
-}
+    color:#118ACB;
+    }
 
 a:visited {
-    color:#2580b7;
-}
+    color:#118ACB;
+    }
 
 a:active {
-    color:#fff;
-}
+    color:#a959c3;
+    }
 
 a:hover {
-    color:#333;
-}
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    }
 
-/* CSS Free Selected WebFonts */
+.whiteLink, .whiteLink:link, .whitelink:link, .whiteLink:visited {
+    color:#fff;
+    font-weight:bold;
+    }
 
-.MuseoSans-500 { 
-    font-family: MuseoSans-500;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.MuseoSans-500Italic { 
-    font-family: MuseoSans-500Italic;
-    font-weight: normal;
-    font-style: normal;
-}
-
-.Lintel-Regular { 
-    font-family: Lintel-Regular;
-    font-weight: normal;
-    font-style: normal;
-}
+.upperCase {
+    text-transform: uppercase;
+    }
 
 .logo {
     margin-top: 20px;
-}
+    }
 
-.title {
-    text-transform: uppercase;
-    color: #2580b7;
-}
-
-.h3title {
-    color:#666;
-    font-size: 0.75em;
-    border: 0;
-    border-top: none;
-    border-bottom: none;
-    padding:0 5px;
-}
-
-.alt-title {
-    color:#666;
-}
-
-.alt-title-amp {
-    color:#2580b7;
-}
+.ts-blue {
+    color: #118ACB;
+    }
 
 .wrapper {
     width: 90%;
     margin: 0 5%;
-}
+    }
 
 .employee {
     float: left;
     margin-bottom: 25px;
-}
+    }
 
 .photo {
     float: left;
     width: 25%;
-}
+    }
 
 .photo>img {
     width:100%;
-}
+    }
 
 .bio {
     line-height: 24px;
     display: inline-block;
     float: left;
     width:75%;
-}
+    }
 
 .bio-pad {
     display: inline-block;
     margin-left: 15px;
-}
+    }
 
 .header-bg {
     background: #fff;
     padding: 10px 0;
-}
+    }
 
 .weAreHiring {
     color:#fff;
-    background: #2580b7;
-    text-align: justify;
-}
+    background: #118ACB;
+    }
 
 .ourCulture {
     background: #c0d0e1;
-    color: #2580b7;
-}
+    color: #118ACB;
+    }
 
 .ourTeam {
     background: #fff;
-    color: #2580b7;
-}
+    color: #118ACB;
+    }
 
 .perks {
     background: #b2b2b2;
     color: #555;
-}
+    }
 
 .tool-columns {
     float: left;
     width: 25%;
-}
+    }
 
 .thingsWeUse {
     background: #b2b2b2;
-    color: #2580b7;
+    color: #118ACB;
     padding-bottom: 32px;
-}
+    }
 
 .thingsWeWorkOn {
     color:#fff;
-    background: #2580b7;
-}
+    background: #118ACB;
+    }
 
 .weAreLookingFor {
     background: #c0d0e1;
-    color: #2580b7;
-}
+    color: #118ACB;
+    }
 
 .openPositions {
     background: #fff;
-    color: #2580b7;
-}
+    color: #118ACB;
+    }
 
 .positionsList {
     list-style-type: none;
-    text-transform: uppercase;
-}
+    }
 
 .positionsLink {
     text-decoration: none;
     display: block;
-    font-family: "MuseoSans-500Italic", "HelveticaNeue-Light", Helvetica;
     font-weight: bold;
     width: 100%;
     padding:8px 0;
     margin:0;
-}
+    }
 
 .ourOffice {
     background: #b2b2b2;
-    color: #555;
-}
+    color: #444;
+    }
 
 .address-dtl {
     font-size: .85em;
-}
+    }
+
+.jobs-txt {
+    color: #555;
+    font-size:0.85em;
+    line-height:1.25em;
+    }
+
+.nested-list {
+    margin:0;
+    padding-left:20px;
+    padding-top:5px;
+    }
+
+.team-icon-list {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    }
+
+.team-icon-list-item {    
+    display: inline;
+    font-size: 2.25em;
+    }
 /* ===============
     ALL: IE Fixes
    =============== */
 
 .ie7 .title {
     padding-top: 20px;
-}
+    }
 
 /* ==========================================================================
    Media Queries
@@ -289,7 +287,7 @@ a:hover {
    body {
     font-size: 1.325em;
     line-height: 1.5em;
-    font-weight: 100;
+    font-weight: 300;
     }
 
     .wrapper {
@@ -309,19 +307,19 @@ a:hover {
     border: 0;
     overflow: hidden;
     *text-indent: -9999px;
-}
+    }
 
 .ir:before {
     content: "";
     display: block;
     width: 0;
     height: 150%;
-}
+    }
 
 .hidden {
     display: none !important;
     visibility: hidden;
-}
+    }
 
 .visuallyhidden {
     border: 0;
@@ -332,7 +330,7 @@ a:hover {
     padding: 0;
     position: absolute;
     width: 1px;
-}
+    }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
@@ -342,25 +340,25 @@ a:hover {
     overflow: visible;
     position: static;
     width: auto;
-}
+    }
 
 .invisible {
     visibility: hidden;
-}
+    }
 
 .clearfix:before,
 .clearfix:after {
     content: " ";
     display: table;
-}
+    }
 
 .clearfix:after {
     clear: both;
-}
+    }
 
 .clearfix {
     *zoom: 1;
-}
+    }
 
 /* ==========================================================================
    Print styles
