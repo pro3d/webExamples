@@ -180,7 +180,7 @@ a:hover {
     }
 
 .ourCulture {
-    background: #c0d0e1;
+    background: #bfd6ff;
     color: #118ACB;
     }
 
@@ -190,8 +190,8 @@ a:hover {
     }
 
 .perks {
-    background: #b2b2b2;
-    color: #555;
+    background: lightgrey;
+    color: #777;
     }
 
 .tool-columns {
@@ -200,7 +200,7 @@ a:hover {
     }
 
 .thingsWeUse {
-    background: #b2b2b2;
+    background: lightgrey;
     color: #118ACB;
     padding-bottom: 32px;
     }
@@ -211,7 +211,7 @@ a:hover {
     }
 
 .weAreLookingFor {
-    background: #c0d0e1;
+    background: #bfd6ff;
     color: #118ACB;
     }
 
@@ -234,8 +234,8 @@ a:hover {
     }
 
 .ourOffice {
-    background: #b2b2b2;
-    color: #444;
+    background: lightgrey;
+    color: #777;
     }
 
 .address-dtl {
