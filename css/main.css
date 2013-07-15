@@ -67,8 +67,11 @@ body {
     background: #fff;
     }
 
-body div {
+body>div {
     padding-bottom: 20px;
+    /*stitching
+    outline: 2px dashed #fff;
+    outline-offset: -12px;*/
     }
 
 footer {
@@ -81,10 +84,18 @@ h1,h2,h3,h4 {
 
 h1 {
     font-size: 2em;
+    /*shadow*/
+    -webkit-text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -moz-text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     }
 
 h2, .h2 {
-    font-size: 1.35em;
+    font-size: 1.45em;
+    /*shadow*/
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    text-shadow: none;
     }
 
 h3, .h3 {
@@ -92,7 +103,7 @@ h3, .h3 {
     }
 
 h4 {
-    font-size: 1.1em;
+    font-size: 1.125em;
     }
 
 .center {
@@ -155,6 +166,10 @@ a:hover {
 
 .photo>img {
     width:100%;
+    /*border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    border: 0px solid #fff;*/
     }
 
 .bio {
@@ -172,6 +187,9 @@ a:hover {
 .header-bg {
     background: #fff;
     padding: 10px 0;
+    /*stitching
+    outline: 2px dashed #98abb9;
+    outline-offset: -12px;*/
     }
 
 .weAreHiring {
@@ -187,6 +205,9 @@ a:hover {
 .ourTeam {
     background: #fff;
     color: #118ACB;
+    /*stitching
+    outline: 2px dashed #98abb9;
+    outline-offset: -12px -26px;*/
     }
 
 .perks {
@@ -218,6 +239,9 @@ a:hover {
 .openPositions {
     background: #fff;
     color: #118ACB;
+    /*stitching
+    outline: 2px dashed #98abb9;
+    outline-offset: -12px;*/
     }
 
 .positionsList {
@@ -231,6 +255,26 @@ a:hover {
     width: 100%;
     padding:8px 0;
     margin:0;
+    }
+
+.positionsButton {
+    padding: 10px 16px;
+    margin-left:10px;
+    background: #118ACB;
+    border-radius: 8px; 
+    -moz-border-radius: 8px; 
+    -webkit-border-radius: 8px;
+    /*shadow*/
+    -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+    }
+
+.positionsButton:hover {
+    /*shadow*/
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
     }
 
 .ourOffice {
