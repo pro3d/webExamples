@@ -84,18 +84,18 @@ h1,h2,h3,h4 {
 
 h1 {
     font-size: 2em;
-    /*shadow*/
+    /*shadow
     -webkit-text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     -moz-text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);*/
     }
 
 h2, .h2 {
     font-size: 1.45em;
-    /*shadow*/
+    /*shadow
     -webkit-text-shadow: none;
     -moz-text-shadow: none;
-    text-shadow: none;
+    text-shadow: none;*/
     }
 
 h3, .h3 {
