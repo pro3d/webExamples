@@ -161,27 +161,15 @@ a:hover {
 
 .photo {
     float: left;
-    width: 25%;
-    }
-
-.photo>img {
-    width:100%;
-    /*border-radius: 10px; 
-    -moz-border-radius: 10px; 
-    -webkit-border-radius: 10px;
-    border: 0px solid #fff;*/
+    width: 90px;
     }
 
 .bio {
-    line-height: 24px;
-    display: inline-block;
     float: left;
-    width:75%;
-    }
-
-.bio-pad {
-    display: inline-block;
-    margin-left: 15px;
+    width: 70%;
+    min-width: 300px;
+    line-height: 24px;
+    padding-left: 15px;
     }
 
 .header-bg {
@@ -335,9 +323,17 @@ a:hover {
     }
 
     .wrapper {
-        width: 720px;
-        margin: 0 auto;
+     width: 720px;
+     margin: 0 auto;
     }
+
+    .photo {
+        width: 180px;
+    }
+    .bio {
+    min-width: 480px;
+    }
+
 }
 
 @media only screen and (min-width: 1140px) {}
