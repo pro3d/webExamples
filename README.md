@@ -5,7 +5,7 @@ You only need to do this once so long as you don't delete the entire directory.
  > I find it easy to actually clone the new gh-pages repo INSIDE the _site directory, as it is ignored and nearby.
 (eg. **/ThreadSuiteJobs.com/_site/webExamples/**)
 ```bash
-***FROM /threadsuitejobs.com/_site/ directory***
+*FROM /threadsuitejobs.com/_site/ directory*
 git clone https://github.com/pro3d/webExamples.git
 ```
 NOTE: The gh-pages branch, in this case, is not a fork of the master branch, rather just treat it like the webroot of a ftp server.
