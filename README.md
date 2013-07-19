@@ -3,12 +3,16 @@
 ## Step 1: Clone Me
 
  > Clone THIS gh-pages repo:
+```bash
+jekyll serve --watch
+```
 
 NOTE: The gh-pages is not a picture of the master branch, rather it is treated like the webroot of a ftp server.
 
-## Step 2: Editing the site (Pasting in contents of the ThreadSuiteJobs.com _site directory after a fresh build)
+## Step 2: Editing the site, or...
+### Just pasting in contents of the ThreadSuiteJobs.com _site directory following a Jekyll build)
 
-Editing the site and its content is a breeze if you use:
+Since there is a difference in directory naming, we must manually edit the CSS Path Structure:
 
 ```bash
 jekyll serve --watch
