@@ -1,17 +1,25 @@
-# ThreadsSiteJobs.com Staging Repository
+## ThreadsSiteJobs.com Staging Repository
 
-## Step 1: Clone the gh-pages branch
-
+### Step 1: Cloning
+You only need to do this once so long as you keep the directory.
  > Clone THIS gh-pages repo if you haven't already.
 ```bash
 git clone https://github.com/pro3d/webExamples.git
 ```
-
 NOTE: The gh-pages is not a picture of the master branch, rather it is treated like the webroot of a ftp server.
 
-## Copying Updates to the webExamples Staging Repo
-### I find it quickest to locally delete all contents of the webExamples dir each time I update: YES, you read that right...LOL
-... then simply copy the Jekyll build from ThreadSuiteJobs.com/_site directory, and push the gh-pages branch.
+### Step 2: Make your Edits Locally
+#### Make your changes and test locally
+```bash
+jekyll serve --watch
+```
+ >Browse to localhost:4000 in browser to test changes.
+##### Push final changes out to threadsuitejobs.com master branch.
+
+### Step 3: Copy Jekyll Build
+
+#### I find it quickest to locally delete all contents within the webExamples dir each time I update: YES, you read that right...LOL
+... I then simply copy all files of the latest Jekyll build from your threadsuitejobs.com/_site directory, and push the gh-pages branch.
 
 NOTE: We aren't doing anything with the master branch, since we already have everything in the ThreadSuite master branch.
 
