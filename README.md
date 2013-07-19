@@ -28,9 +28,9 @@ NOTE: I am not even using the master branch, since we already have everything in
  >2. ALL .html job listings in the /2013/MM/DD subdirectories
 NOTE: Since we are essentially cloning a repo cross-domain, a well documented weakpoint with Jekyll at the moment, these irritating edits are sadly required.
 
-How you edit these is up to you, locally, or actually clicking Edit on Github.com is just as fast if you don't mind pushing broken CSS links for a minute.
+How you edit these is up to you, locally via text editor, or actually clicking Edit on Github.com in the viewer is just as fast if you don't mind pushing broken CSS links for a minute.
 ```bash
-CHANGE href="/css/blah.blah.css" to "href="/webExamples/css/blah.blah.css" to match the gh-pages path.
+CHANGE ALL INSTANCES OF href="/css/blah.css" to "href="/webExamples/css/blah.css" to match the gh-pages path.
 ```
 
 ## I will work on a more elegant solution, as there are hacks and tricks to make this more STREAMLINED... but I need some more time.
