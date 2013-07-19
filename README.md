@@ -1,4 +1,4 @@
-## ThreadsSuiteJobs.com Staging Repository
+## Using the ThreadSuiteJobs.com Staging Repository
 ### Step 1: Cloning gh-pages branch
 You only need to do this once so long as you keep the /webExamples/ directory.
  > Clone the gh-pages repo to your local computer if you haven't already.
