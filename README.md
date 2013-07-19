@@ -1,7 +1,9 @@
 ## ThreadsSiteJobs.com Staging Repository
-### Step 1: Cloning
-You only need to do this once so long as you keep the directory.
- > Clone THIS gh-pages repo if you haven't already.
+### Step 1: Cloning gh-pages branch
+You only need to do this once so long as you don't delete the entire directory.
+ > Clone the gh-pages repo if you haven't already.
+ > I find it easy to actually clone the new gh-pages repo INSIDE the _site directory, as it is ignored.
+(eg. /ThreadSuiteJobs.com/_site/webExamples/ ... this makes files easy to navigate between)
 ```bash
 git clone https://github.com/pro3d/webExamples.git
 ```
@@ -17,7 +19,8 @@ jekyll serve --watch
 
 ### Step 3: Copy Jekyll Build to Pro3d
 #### I find it quickest to locally copy all files of your last Jekyll build & overwrite the contents within the webExamples dir from Step 1.
-
+You can use Finder or Terminal to do this; here is the command to quickly overwrite the directory
+ >cp -Ri <source dir> <target dir>
 ... I then simply copy all files of your last Jekyll build from your threadsuitejobs.com/_site directory, and push the gh-pages branch.
 
 NOTE: I am not even using the master branch, since we already have everything in the ThreadSuiteJobs.com master branch.
