@@ -31,8 +31,8 @@ NOTE: Remember that these files do NOT check into the master branch; they are si
  >2. ALL .html job listings in each of the /_site/webExamples/2013/MM/DD subdirectories
 NOTE: Since we are essentially cloning a repo cross-domain, __a well documented weakpoint of Jekyll at the moment__, these irritating edits are sadly required..
 
-How you edit these is up to you, locally via text editor, or you can click the Edit Button on Github.com.
-**Just as fast if you don't mind pushing broken CSS links for a minute.**
+How you edit these is up to you, locally via text editor, or you can click the Edit Button on Github.com;
+**IF you don't mind pushing broken CSS links for a minute.**
 ```bash
 CHANGE ALL INSTANCES OF href="/css/fileName.css" to href="/webExamples/css/fileName.css" to match the gh-pages path.
 ```
