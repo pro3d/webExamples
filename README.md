@@ -2,17 +2,17 @@
 ### Step 1: Cloning gh-pages branch
 You only need to do this once so long as you don't delete the entire directory.
  > Clone the gh-pages repo to your local computer if you haven't already.
- > I choose to clone the gh-pages repo INSIDE the _site directory of the production site as it is ignored and nearby. __If this makes you uncomfortable, just choose a new spot.__
+ > I choose to clone the gh-pages repo INSIDE the _site directory of the production site as it is ignored and nearby.
+__If this makes you uncomfortable, just choose any location.__
 (eg. **/ThreadSuiteJobs.com/_site/webExamples/**)
 ```bash
 cd /threadsuitejobs.com/_site/
 git clone https://github.com/pro3d/webExamples.git
 ```
-NOTE: The gh-pages branch, in this case, is not based on another branch.
-**I just treat it like the webroot of a ftp server**
+NOTE: The gh-pages branch on my Pro3d account is not based on a master branch; **I just treat it like the webroot of a ftp server**
 
 ### Step 2: Make Local Changes
-#### Make your edits to the ThreadSuiteJobs.com master branch, then test locally
+#### Make your edits inside the ThreadSuiteJobs.com master branch, then test locally
 ```bash
 jekyll serve --watch
 ```
@@ -22,10 +22,11 @@ jekyll serve --watch
 
 ### Step 3: Copy Jekyll Build
 #### I find it quickest to locally copy all files of your latest Jekyll build & overwrite the contents within /_site/webExamples/ from Step 1.
-NOTE: I am not even using the master branch, since we already have everything in the ThreadSuiteJobs.com master branch.
+NOTE: Remember that these files do NOT check into the master branch; they are simply compiled output from the master branch.
 
-### Step 4: Edit CSS Include Paths
-#### Files to modify: (CSS paths are in the head of the file)
+### Step 4: Edit CSS Paths
+#### Files to modify:
+(There are currently only 3 filepaths to change in the head of each file)
  >1. /_site/webExamples/index.html
  >2. ALL .html job listings in each of the /_site/webExamples/2013/MM/DD subdirectories
 NOTE: Since we are essentially cloning a repo cross-domain, __a well documented weakpoint of Jekyll at the moment__, these irritating edits are sadly required..
