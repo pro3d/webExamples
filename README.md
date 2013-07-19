@@ -1,4 +1,4 @@
-## ThreadsSiteJobs.com Staging Repository
+## ThreadsSuiteJobs.com Staging Repository
 ### Step 1: Cloning gh-pages branch
 You only need to do this once so long as you don't delete the entire directory.
  > Clone the gh-pages repo to your local computer if you haven't already.
