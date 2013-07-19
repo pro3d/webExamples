@@ -33,6 +33,6 @@ NOTE: Since we are essentially cloning a repo cross-domain, __a well documented 
 How you edit these is up to you, locally via text editor, or you can click the Edit Button on Github.com.
 **Just as fast if you don't mind pushing broken CSS links for a minute.**
 ```bash
-CHANGE ALL INSTANCES OF href="/css/blah.css" to "href="/webExamples/css/blah.css" to match the gh-pages path.
+CHANGE ALL INSTANCES OF href="/css/fileName.css" to href="/webExamples/css/fileName.css" to match the gh-pages path.
 ```
 ### I will employ a much more elegant solution ASAP, as there are hacks and tricks to make this more STREAMLINED... but I need to make the time.
