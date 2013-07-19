@@ -11,7 +11,7 @@ git clone https://github.com/pro3d/webExamples.git
 ```
 NOTE: The gh-pages branch on my Pro3d account is not based on a master branch; **I just treat it like the webroot of a ftp server**
 
-### Step 2: Make Local Changes
+### Step 2: Make & Commit Changes to Master
 #### Make your edits inside the ThreadSuiteJobs.com master branch, then test locally
 ```bash
 jekyll serve --watch
@@ -24,7 +24,7 @@ jekyll serve --watch
 #### I find it quickest to locally copy all files of your latest Jekyll build & overwrite the contents within /_site/webExamples/ from Step 1.
 NOTE: Remember that these files do NOT check into the master branch; they are simply compiled output from the master branch.
 
-### Step 4: Edit CSS Paths
+### Step 4: Edit CSS Paths on gh-pages branch
 #### Files to modify:
 (There are currently only 3 filepaths to change in the head of each file)
  >1. /_site/webExamples/index.html
@@ -36,4 +36,6 @@ How you edit these is up to you, locally via text editor, or you can click the E
 ```bash
 CHANGE ALL INSTANCES OF href="/css/fileName.css" to href="/webExamples/css/fileName.css" to match the gh-pages path.
 ```
-### I will employ a much more elegant solution ASAP, as there are hacks and tricks to make this more STREAMLINED... but I need to make the time.
+### Finally: Commit and Push gh-pages branch.
+
+#### I will employ a much more elegant solution ASAP, as there are hacks and tricks to make this more STREAMLINED... but I need to make the time.
