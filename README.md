@@ -1,18 +1,12 @@
-# threadsuitejobs.com
+# ThreadsSiteJobs.com Staging Repository
 
-The ThreadSuite product & engineering jobs micro-site, based on [jekyll](http://jekyllrb.com/).
+## Step 1: Clone Me
 
-## Set up
+ > Clone THIS gh-pages repo:
 
-```bash
-git clone git@github.com:ThreadSuite/threadsuitejobs.com.git
-cd threadsuitejobs.com
-bundle
-```
+NOTE: The gh-pages is not a picture of the master branch, rather it is treated like the webroot of a ftp server.
 
-That's it.
-
-## Editing the site
+## Step 2: Editing the site (Pasting in contents of the ThreadSuiteJobs.com _site directory after a fresh build)
 
 Editing the site and its content is a breeze if you use:
 
