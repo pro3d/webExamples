@@ -26,16 +26,16 @@ jekyll serve --watch
 #### I find it quickest to locally copy all files of your latest Jekyll build & overwrite the contents within /_site/webExamples/ from Step 1.
 NOTE: Remember that these files do NOT check into the master branch; they are simply compiled output from the master branch.
 
-### Step 4: Edit CSS Paths on gh-pages branch
+### Step 4: Edit CSS/JS Paths on gh-pages branch
 #### Files to modify:
-(There are currently only 3 filepaths to change in the head of each file)
+(There are currently only 4 filepaths to change in the head of each file, 3 for css & 1 for a html5shiv.js include)
  >1. /_site/webExamples/index.html
  >2. ALL .html job listings in each of the /_site/webExamples/2013/MM/DD subdirectories
 NOTE: Since we are essentially cloning a repo cross-domain, a well documented weakpoint of Jekyll at the moment, these irritating edits are sadly required.
 
-How you edit these is up to you, locally via text editor OR use built in Edit Button on Github.com... **IF you don't mind pushing broken CSS links to Staging while you're fixing them**
+How you edit these is up to you, locally via text editor OR use built in Edit Button on Github.com... **IF you don't mind pushing broken links to Staging while you're fixing them**
 ```bash
-CHANGE ALL INSTANCES OF href="/css/fileName.css" to href="/webExamples/css/fileName.css" to match the gh-pages path.
+CHANGE ALL INSTANCES OF href="/css/fileName.css" AND href="/js/fileName.js" TO href="/webExamples/css/fileName.css" AND href="/webExamples/js/fileName.js" to match the gh-pages path.
 ```
 ### Finally: Sync & Commit then Push gh-pages branch to Staging at [Pro3d.Github.io/webExamples](http://pro3d.github.io/webExamples)
 
