@@ -1,31 +1,23 @@
 # ThreadsSiteJobs.com Staging Repository
 
-## Step 1: Clone Me
+## Clone Me
 
- > Clone THIS gh-pages repo:
+ > Clone THIS gh-pages repo if you haven't already.
 ```bash
 jekyll serve --watch
 ```
 
 NOTE: The gh-pages is not a picture of the master branch, rather it is treated like the webroot of a ftp server.
 
-## Step 2: Editing the site, or...
-### Just pasting in contents of the ThreadSuiteJobs.com _site directory following a Jekyll build)
+## Editing the site
+### I find it quickest to just delete all contents of the freshly checked out repo: YES, you read that right...LOL, then copy the contents of the latest Jekyll build from ThreadSuiteJobs.com/_site directory )
 
-Since there is a difference in directory naming, we must manually edit the CSS Path Structure:
-
+Since we are essentially cloning a site cross-domain, a well documented weakpoint with Jekyll at the moment, we will manually edit any CSS Paths on .html pages.
+At this point, it just cosists of:
+ >index.html
+ >... and ...
+ >any job posting html page in the 2013 directory
+How you edit these is up to you, locally, or actually clicking Edit on Github is just as fast if you don't mind pushing a broken test site for a few minutes.
 ```bash
-jekyll serve --watch
+CHANGE href="/css/blah.blah.css" to "href="/webExamples/css/blah.blah.css" to match the gh-pages path.
 ```
-
-Jekyll will watch for changes and regenerate the site in the background.
-
-### How do I change the home page?
-
-The [index page](index.html) largely consists of includes, one for each section. You can find these files in the [_includes/ directory](_includes/).
-
-### How do I add or change a team member's bio?
-
-The team bios are in the front-matter of the [index page](index.html). Make your changes there. (And make sure it's valid YAML.)
-
-The team images are in the [img/ dir](img/).
